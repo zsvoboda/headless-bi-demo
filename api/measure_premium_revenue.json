@@ -8,7 +8,7 @@
                 "maql": "SELECT SUM({fact/coverage.coverage_annual_premium}*{fact/coverage.coverage_lifetime}/365)"
             }
         },
-        "id": "premium-amount",
+        "id": "premium-revenue",
         "type": "metric"
     }
 }

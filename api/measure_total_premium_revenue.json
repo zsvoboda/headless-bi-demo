@@ -5,10 +5,10 @@
             "description": "Total premium revenue in US dollars.",
             "content": {
                 "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
-                "maql": "SELECT {metric/premium-amount} BY ALL IN ALL OTHER DIMENSIONS "
+                "maql": "SELECT {metric/premium-revenue} BY ALL IN ALL OTHER DIMENSIONS "
             }
         },
-        "id": "total-premium-amount",
+        "id": "total-premium-revenue",
         "type": "metric"
     }
 }
