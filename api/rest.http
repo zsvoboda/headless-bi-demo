@@ -33,7 +33,7 @@ GET http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
-### Create premium amount measure
+### Create premium revenue measure
 POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
@@ -47,7 +47,7 @@ Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
 < ./measure_claim_amount.json
 
-### Create total premium amount measure
+### Create total premium revenue measure
 POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
