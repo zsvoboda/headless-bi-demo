@@ -33,16 +33,30 @@ GET http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
-### Create rental amount measure
+### Create premium amount measure
 POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
-< ./metrics/rental-amount.json
+< ./measure_premium_amount.json
 
-### Create total rental amount measure
+### Create claim amount measure
 POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
-< ./metrics/total-rental-amount.json
+< ./measure_claim_amount.json
+
+### Create total premium amount measure
+POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
+Content-Type: application/vnd.gooddata.api+json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./measure_total_premium_amount.json
+
+### Create total claim amount measure
+POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
+Content-Type: application/vnd.gooddata.api+json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./measure_total_claim_amount.json

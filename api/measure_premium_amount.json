@@ -1,0 +1,14 @@
+{
+    "data": {
+        "attributes": {
+            "title": "Premium Amount",
+            "description": "Premium amount in US dollars.",
+            "content": {
+                "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
+                "maql": "SELECT SUM({fact/coverage.coverage_annual_premium})"
+            }
+        },
+        "id": "premium-amount",
+        "type": "metric"
+    }
+}
