@@ -1,14 +1,14 @@
 {
     "data": {
         "attributes": {
-            "title": "Premium Amount",
-            "description": "Premium amount in US dollars.",
+            "title": "Total Premium Revenue",
+            "description": "Total premium revenue in US dollars.",
             "content": {
                 "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
-                "maql": "SELECT SUM({fact/coverage.coverage_annual_premium})"
+                "maql": "SELECT {metric/premium-amount} BY ALL IN ALL OTHER DIMENSIONS "
             }
         },
-        "id": "premium-amount",
+        "id": "total-premium-amount",
         "type": "metric"
     }
 }
