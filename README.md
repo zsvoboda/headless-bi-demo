@@ -12,6 +12,6 @@ Open the ``./api/rest.http`` file in the VSCode editor and clisk on the _Send Re
 ## REST call sequence
 
 1. Create workspace
-2. Create Snowflake connection
+2. Create Postgres connection
 3. Publish semantic model
-4. Publish metrics
+4. Publish metrics or analytical model
