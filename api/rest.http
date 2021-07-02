@@ -60,3 +60,10 @@ Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
 < ./measure_total_claim_amount.json
+
+### Create analytics model objects
+PUT http://localhost:3000/api/layout/workspaces/insurance-demo/analyticsModel/
+Content-Type: application/json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./analytics_model.json

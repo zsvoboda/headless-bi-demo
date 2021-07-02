@@ -1,0 +1,530 @@
+{
+    "analytics": {
+        "analyticalDashboards": [
+            {
+                "content": {
+                    "filterContextRef": {
+                        "identifier": {
+                            "id": "79a21dbe-d7f0-4053-86d8-31d0b3d48ea2",
+                            "type": "filterContext"
+                        }
+                    },
+                    "layout": {
+                        "type": "IDashboardLayout",
+                        "sections": [
+                            {
+                                "type": "IDashboardLayoutSection",
+                                "items": [
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 3
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "Claims",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "claim_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "578a4731-c306-4662-9cc3-fa6a0dbdcef4",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    },
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 3
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "Claims $",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "claim_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "1f472ace-9a56-4f29-9f96-b09cf2d11412",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    },
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 3
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "New Contracts",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "coverage_created_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "b279a4b0-65c9-4c43-8519-da288aa10c88",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    },
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 3
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "Premium Revenue",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "coverage_created_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "35726ef2-adf1-4e6f-8143-2e51bb0cedaa",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ],
+                                "header": {
+                                    "title": "KPIs"
+                                }
+                            },
+                            {
+                                "type": "IDashboardLayoutSection",
+                                "items": [
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 6
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "Claim $ Trend",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "claim_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "c76806db-7e43-40d3-9cfb-3f702d146a48",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    },
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 6
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "Premium Revenue Trend",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "coverage_created_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "a1ee7ffc-1cc1-4d9a-a4ad-3354d4fb33d5",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ],
+                                "header": {
+                                    "title": "Trends"
+                                }
+                            }
+                        ]
+                    },
+                    "version": "2"
+                },
+                "description": "",
+                "id": "6166f619-0d2a-4753-8315-d1d4cf81441e",
+                "title": "Overview"
+            }
+        ],
+        "filterContexts": [
+            {
+                "content": {
+                    "filters": [
+                        {
+                            "dateFilter": {
+                                "from": "-11",
+                                "to": "0",
+                                "granularity": "GDC.time.month",
+                                "type": "relative"
+                            }
+                        }
+                    ],
+                    "version": "2"
+                },
+                "description": "",
+                "id": "79a21dbe-d7f0-4053-86d8-31d0b3d48ea2",
+                "title": "filterContext"
+            }
+        ],
+        "metrics": [
+            {
+                "content": {
+                    "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
+                    "maql": "SELECT SUM({fact/claim.claim_amount})"
+                },
+                "description": "Claim amount in US dollars.",
+                "id": "claim-amount",
+                "title": "Claim Amount"
+            },
+            {
+                "content": {
+                    "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
+                    "maql": "SELECT SUM({fact/coverage.coverage_annual_premium}*{fact/coverage.coverage_lifetime}/365)"
+                },
+                "description": "Premium revenue in US dollars.",
+                "id": "premium-revenue",
+                "title": "Premium Revenue"
+            },
+            {
+                "content": {
+                    "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
+                    "maql": "SELECT {metric/claim-amount} BY ALL IN ALL OTHER DIMENSIONS "
+                },
+                "description": "Total claim amount in US dollars.",
+                "id": "total-claim-amount",
+                "title": "Total Claim Amount"
+            },
+            {
+                "content": {
+                    "format": "[>=1000000000000]$#,,,,.0 T;\n[>=1000000000]$#,,,.0 B;\n[>=1000000]$#,,.0 M;\n[>=1000]$#,.0 K;\n[>=0]$#,##0;\n[<=-1000000000000]-$#,,,,.0 T;\n[<=-1000000000]-$#,,,.0 B;\n[<=-1000000]-$#,,.0 M;\n[<=-1000]-$#,.0 K;\n[<0]-$#,##0",
+                    "maql": "SELECT {metric/premium-revenue} BY ALL IN ALL OTHER DIMENSIONS "
+                },
+                "description": "Total premium revenue in US dollars.",
+                "id": "total-premium-revenue",
+                "title": "Total Premium Revenue"
+            }
+        ],
+        "visualizationObjects": [
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "417c70634a11411b91edea1a66c5b07d",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "claim-amount",
+                                                        "type": "metric"
+                                                    }
+                                                },
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Claim Amount"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:headline",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "KPI_Claim",
+                "id": "1f472ace-9a56-4f29-9f96-b09cf2d11412",
+                "title": "KPI_Claim"
+            },
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "b404a8fea2e340dabf3fc57bdefaa03c",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "premium-revenue",
+                                                        "type": "metric"
+                                                    }
+                                                },
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Premium Revenue"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:headline",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "KPI_Revenue",
+                "id": "35726ef2-adf1-4e6f-8143-2e51bb0cedaa",
+                "title": "KPI_Revenue"
+            },
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "8303b6990e424ab29e7c5f0df861beea",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "claim.claim_id",
+                                                        "type": "attribute"
+                                                    }
+                                                },
+                                                "aggregation": "count",
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Count of Claim id",
+                                        "format": "[>=1000000000000]#,,,,.0 T;\n[>=1000000000]#,,,.0 B;\n[>=1000000]#,,.0 M;\n[>=1000]#,.0 K;\n[>=0]#,##0;\n[<=-1000000000000]-#,,,,.0 T;\n[<=-1000000000]-#,,,.0 B;\n[<=-1000000]-#,,.0 M;\n[<=-1000]-#,.0 K;\n[<0]-#,##0"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:headline",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "KPI_Claims_Count",
+                "id": "578a4731-c306-4662-9cc3-fa6a0dbdcef4",
+                "title": "KPI_Claims_Count"
+            },
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "1bf0ac5f784f4474875477de186dd69d",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "premium-revenue",
+                                                        "type": "metric"
+                                                    }
+                                                },
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Premium Revenue"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        },
+                        {
+                            "items": [
+                                {
+                                    "attribute": {
+                                        "localIdentifier": "0e218b976cbc4625b18b58588396cc32",
+                                        "displayForm": {
+                                            "identifier": {
+                                                "id": "coverage_created_date.quarter",
+                                                "type": "label"
+                                            }
+                                        },
+                                        "alias": "Quarter"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "view"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:column",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "Premium Revenue Trend",
+                "id": "a1ee7ffc-1cc1-4d9a-a4ad-3354d4fb33d5",
+                "title": "Premium Revenue Trend"
+            },
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "3fd7782a47414324adce835a75b32dfb",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "coverage.coverage_id",
+                                                        "type": "attribute"
+                                                    }
+                                                },
+                                                "aggregation": "count",
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Count of Coverage id",
+                                        "format": "[>=1000000000000]#,,,,.0 T;\n[>=1000000000]#,,,.0 B;\n[>=1000000]#,,.0 M;\n[>=1000]#,.0 K;\n[>=0]#,##0;\n[<=-1000000000000]-#,,,,.0 T;\n[<=-1000000000]-#,,,.0 B;\n[<=-1000000]-#,,.0 M;\n[<=-1000]-#,.0 K;\n[<0]-#,##0"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:headline",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "KPI_coverages_created",
+                "id": "b279a4b0-65c9-4c43-8519-da288aa10c88",
+                "title": "KPI_coverages_created"
+            },
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "f1f4c0f23dea4063a7a8c5633301c266",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "claim-amount",
+                                                        "type": "metric"
+                                                    }
+                                                },
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Claim Amount",
+                                        "alias": "Claims $"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        },
+                        {
+                            "items": [
+                                {
+                                    "attribute": {
+                                        "localIdentifier": "152bf8aa488e4b1c95b426f1be99c7ac",
+                                        "displayForm": {
+                                            "identifier": {
+                                                "id": "claim_date.quarter",
+                                                "type": "label"
+                                            }
+                                        },
+                                        "alias": "Quarter"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "view"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:column",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "Claim $ Trend",
+                "id": "c76806db-7e43-40d3-9cfb-3f702d146a48",
+                "title": "Claim $ Trend"
+            }
+        ]
+    }
+}
