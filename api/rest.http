@@ -1,0 +1,48 @@
+### Create workspace
+POST http://localhost:3000/api/entities/workspaces/
+Content-Type: application/vnd.gooddata.api+json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./workspace.json
+
+
+### Create Postgres connection
+POST http://localhost:3000/api/entities/dataSources/
+Content-Type: application/vnd.gooddata.api+json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./pgsql_connection.json
+
+
+### Get semantic model
+GET http://localhost:3000/api/layout/workspaces/insurance-demo/logicalModel/
+Content-Type: application/json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+
+### Publish semantic model
+PUT http://localhost:3000/api/layout/workspaces/insurance-demo/logicalModel/
+Content-Type: application/json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./ldm/insurance.json
+
+
+### Get measures
+GET http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
+Content-Type: application/json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+### Create rental amount measure
+POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
+Content-Type: application/vnd.gooddata.api+json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./metrics/rental-amount.json
+
+### Create total rental amount measure
+POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
+Content-Type: application/vnd.gooddata.api+json
+Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
+
+< ./metrics/total-rental-amount.json

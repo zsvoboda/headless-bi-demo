@@ -1,0 +1,26 @@
+"region_id","region_code","region_name","region_crime_rate","region_safety_scale"
+GR,GR,Graubünden,13.80,86.20
+BS,BS,Basel-Stadt,3.91,96.09
+BE,BE,Bern,23.44,76.56
+GL,GL,Glarus,31.41,68.59
+NW,NW,Nidwalden,3.91,96.09
+UR,UR,Uri,65.62,34.38
+ZH,ZH,Zürich,38.17,61.83
+JU,JU,Jura,13.80,86.20
+SO,SO,Solothurn,22.27,77.73
+FR,FR,Fribourg,18.75,81.25
+TI,TI,Ticino,29.21,70.79
+SG,SG,St. Gallen,4.55,95.45
+VD,VD,Vaud,30.52,69.48
+TG,TG,Thurgau,18.75,81.25
+AG,AG,Aargau,39.93,60.07
+Unknown,Unknown,Unknown,,
+VS,VS,Valais,31.41,68.59
+OW,OW,Obwalden,3.91,96.09
+NE,NE,Neuchâtel,3.91,96.09
+BL,BL,Basel-Landschaft,61.91,38.09
+SH,SH,Schaffhausen,22.66,77.34
+LU,LU,Lucerne,35.94,64.06
+ZG,ZG,Zug,3.91,96.09
+GE,GE,Geneva,31.41,68.59
+SZ,SZ,Schwyz,34.77,65.23

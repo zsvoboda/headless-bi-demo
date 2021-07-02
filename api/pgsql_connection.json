@@ -1,0 +1,14 @@
+{
+    "data": {
+      "id": "insurancedemo",
+      "type": "dataSource",
+      "attributes": {
+        "name": "Insurance Demo",
+        "type": "POSTGRESQL",
+        "url": "jdbc:postgresql://localhost:5432/demo",
+        "schema": "insurance",
+        "username": "demouser",
+        "password": "demopass"
+      }
+    }
+  }
