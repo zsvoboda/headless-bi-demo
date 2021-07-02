@@ -38,7 +38,7 @@ POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
-< ./measure_premium_amount.json
+< ./measure_premium_revenue.json
 
 ### Create claim amount measure
 POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
@@ -52,7 +52,7 @@ POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
 Content-Type: application/vnd.gooddata.api+json
 Authorization: Bearer YWRtaW46Ym9vdHN0cmFwOmFkbWluMTIz
 
-< ./measure_total_premium_amount.json
+< ./measure_total_premium_revenue.json
 
 ### Create total claim amount measure
 POST http://localhost:3000/api/entities/workspaces/insurance-demo/metrics/
