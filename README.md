@@ -1,5 +1,4 @@
-# Insurance Demo
-Headless BI demo 
+# Headless BI demo 
 
 * [Demo script document](https://docs.google.com/document/d/1cykrZoyS7mj_rHSQdLDht4mhYidscok3Jv-FhSFOE4Q/edit#)
 * [Demo deck](https://docs.google.com/presentation/d/1kCe_0dp1Z481klcW8SfOhuLuKgy58p7fwjDMSkN_uoo/edit#slide=id.g7e01633636_0_414)
