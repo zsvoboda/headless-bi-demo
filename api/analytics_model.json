@@ -195,6 +195,43 @@
                                 "header": {
                                     "title": "Trends"
                                 }
+                            },
+                            {
+                                "type": "IDashboardLayoutSection",
+                                "items": [
+                                    {
+                                        "type": "IDashboardLayoutItem",
+                                        "size": {
+                                            "xl": {
+                                                "gridWidth": 12,
+                                                "gridHeight": 37
+                                            }
+                                        },
+                                        "widget": {
+                                            "type": "insight",
+                                            "title": "Premium Revenue Structure",
+                                            "description": "",
+                                            "ignoreDashboardFilters": [],
+                                            "dateDataSet": {
+                                                "identifier": {
+                                                    "id": "coverage_created_date",
+                                                    "type": "dataset"
+                                                }
+                                            },
+                                            "insight": {
+                                                "identifier": {
+                                                    "id": "f7fef745-7269-454e-982e-e1d7d3eed81f",
+                                                    "type": "visualizationObject"
+                                                }
+                                            },
+                                            "drills": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ],
+                                "header": {
+                                    "title": "Revenue structure"
+                                }
                             }
                         ]
                     },
@@ -524,6 +561,75 @@
                 "description": "Claim $ Trend",
                 "id": "c76806db-7e43-40d3-9cfb-3f702d146a48",
                 "title": "Claim $ Trend"
+            },
+            {
+                "content": {
+                    "buckets": [
+                        {
+                            "items": [
+                                {
+                                    "measure": {
+                                        "localIdentifier": "0b3a3a4a6e2547259725e18e64033620",
+                                        "definition": {
+                                            "measureDefinition": {
+                                                "item": {
+                                                    "identifier": {
+                                                        "id": "premium-revenue",
+                                                        "type": "metric"
+                                                    }
+                                                },
+                                                "filters": []
+                                            }
+                                        },
+                                        "title": "Premium Revenue"
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "measures"
+                        },
+                        {
+                            "items": [
+                                {
+                                    "attribute": {
+                                        "localIdentifier": "bb6895568384411a909514dd5b95011f",
+                                        "displayForm": {
+                                            "identifier": {
+                                                "id": "car.car_make",
+                                                "type": "label"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "view"
+                        },
+                        {
+                            "items": [
+                                {
+                                    "attribute": {
+                                        "localIdentifier": "b08cd137253d405f803601bf12fa89cb",
+                                        "displayForm": {
+                                            "identifier": {
+                                                "id": "customer.customer_age_group",
+                                                "type": "label"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "localIdentifier": "segment"
+                        }
+                    ],
+                    "filters": [],
+                    "properties": {},
+                    "sorts": [],
+                    "visualizationUrl": "local:treemap",
+                    "isLocked": false,
+                    "version": "2"
+                },
+                "description": "Premium Revenue Structure",
+                "id": "f7fef745-7269-454e-982e-e1d7d3eed81f",
+                "title": "Premium Revenue Structure"
             }
         ]
     }
