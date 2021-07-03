@@ -22,14 +22,15 @@ The database has been dumped with this command:
   ``pg_restore --host=localhost --port=5432  --dbname=demo insurance.dump``
 
 ## Requirements
-Install Visual Studio Code and the _Rest Client_ extension.
+Install [Visual Studio Code](https://code.visualstudio.com/) and the [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension.
 
 ## Invoking GoodData.CN REST APIs
-Open the ``./api/rest.http`` file in the VSCode editor and clisk on the _Send Request_ link on top of each request. 
+Open the ``./api/rest.http`` file in the VSCode editor and clisk on the ``Send Request`` link on top of each request. 
 
 ## REST calls sequence
+Note the comments on top of eac request. Execute the sequence of requests with the comments below:
 
 1. Create workspace
 2. Create Postgres connection
-3. Publish semantic model
-4. Publish metrics or analytical model
+3. Create semantic model
+4. Create analytics model objects
