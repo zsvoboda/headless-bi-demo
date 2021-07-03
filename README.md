@@ -19,7 +19,7 @@ The database has been dumped with this command:
 
  You can restore it using this command:
 
-  ``pg_restore --host=localhost --port=5432  --dbname=demo insurance.dump``
+  ``pg_restore --host=localhost --port=5432  --dbname=demo ./data/backup/insurance.dump``
 
 ## Requirements
 Install [Visual Studio Code](https://code.visualstudio.com/) and the [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension.
